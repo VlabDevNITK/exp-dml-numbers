@@ -8,121 +8,147 @@ function navNext()
 	
 	for(temp=0;temp<2;temp++)
 	{ 
-		document.getElementById("canvas"+temp).style.visibility="hidden";
+		document.getElementById("canvas"+temp).style.display="none";
 	}
 	
 	simsubscreennum+=1;
 	//
-	document.getElementById("canvas"+simsubscreennum).style.visibility="visible";
-	document.getElementById("nextButton").style.visibility="hidden";
-	magic();
+	document.getElementById("canvas"+simsubscreennum).style.display="block";
+	document.getElementById("nextButton").style.display="none";
+	// magic();
 
 	
 	
 }
 
-function animatearrow()
-{
-    if (document.getElementById('arrow1').style.visibility=="hidden")
-        document.getElementById('arrow1').style.visibility="visible";
-    else
-        document.getElementById('arrow1').style.visibility="hidden";
-}
+// function animatearrow()
+// {
+//     if (document.getElementById('arrow1').style.visibility=="hidden")
+//         document.getElementById('arrow1').style.visibility="visible";
+//     else
+//         document.getElementById('arrow1').style.visibility="hidden";
+// }
 
-function myStopFunction() 
-{
-     clearInterval(myInt);
-     document.getElementById('arrow1').style.visibility="hidden";
-}
+// function myStopFunction() 
+// {
+//      clearInterval(myInt);
+//      document.getElementById('arrow1').style.visibility="hidden";
+// }
 
-function blinkArrow(l,t,d,h)
-{
-	myInt = setInterval(function(){ animatearrow(); }, 500);
-	document.getElementById('arrow1').style="visibility:visible ;position:absolute; left:"+l+"px; top:"+t+"px; height:"+h+"px; z-index: 10;";
-	document.getElementById("arrow1").style.WebkitTransform = "rotate("+d+"deg)"; 
-	document.getElementById("arrow1").style.msTransform = "rotate("+d+"deg)";
-	document.getElementById("arrow1").style.transform = "rotate("+d+"deg)";
-}
+// function blinkArrow(l,t,d,h)
+// {
+// 	myInt = setInterval(function(){ animatearrow(); }, 500);
+// 	document.getElementById('arrow1').style="visibility:visible ;position:absolute; left:"+l+"px; top:"+t+"px; height:"+h+"px; z-index: 10;";
+// 	document.getElementById("arrow1").style.WebkitTransform = "rotate("+d+"deg)"; 
+// 	document.getElementById("arrow1").style.msTransform = "rotate("+d+"deg)";
+// 	document.getElementById("arrow1").style.transform = "rotate("+d+"deg)";
+// }
 
-function magic()
-{
-	if(simsubscreennum==1)
-	{
-		blinkArrow(520,270,360,40);
+// function magic()
+// {
+// 	if(simsubscreennum==1)
+// 	{
+// 		blinkArrow(520,270,360,40);
 		
-	}
+// 	}
 	
 	
-}
+// }
+// document.getElementById('numberInput').addEventListener('keypress', function (e) {
+//   if (e.key < '0' || e.key > '9') {
+//       e.preventDefault();
+//   }
+// });
+
 document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById('numberInput').addEventListener('keypress', function (e) {
+ var errorDisplay = document.getElementById("warningMessage");
+ if (e.key < '0' || e.key > '9') {
+  errorDisplay.style.visibility = "visible";
+  e.preventDefault();
+} else {
+  errorDisplay.style.visibility = "hidden";
+}
+  });
 
-  var numericInput = document.getElementById("numberInput");
-  var rangeInput = document.getElementById("slider");
-  var errorDisplay = document.getElementById("warningMessage");
-  errorDisplay.style.display = "none";
+
+  // var numericInput = document.getElementById("numberInput");
+  // var rangeInput = document.getElementById("slider");
+  // var errorDisplay = document.getElementById("warningMessage");
+  // errorDisplay.style.display = "none";
 
 
-  numericInput.value = 0;
-  rangeInput.value = 0;
+  // numericInput.value = 0;
+  // rangeInput.value = 0;
 
   
-  numericInput.addEventListener("input", function() {
+  // numericInput.addEventListener("input", function() {
     
-    rangeInput.value = numericInput.value;
+  //   rangeInput.value = numericInput.value;
 
    
-    numberMorse();
-    const inputValue1 = numericInput.value;
+  //   numberMorse();
+  //   const inputValue1 = numericInput.value;
 
-  // Check if the input value contains multiple zeros
-  if (inputValue1.includes("00")) {
-    // Remove the extra zeros
-    numericInput.value = inputValue1.replace(/00/g, "0");
-  }
+  // // Check if the input value contains multiple zeros
+  // if (inputValue1.includes("00")) {
+  //   // Remove the extra zeros
+  //   numericInput.value = inputValue1.replace(/00/g, "0");
+  // }
 
-    var inputValue = parseInt(numericInput.value, 10);
-    if (isNaN(inputValue) || inputValue < 0 || inputValue > 9 || !Number.isInteger(inputValue)|| numericInput.value.includes(".")) {
-      errorDisplay.style.display = "block";
-      document.getElementById('submit').disabled = true;
-      numericInput.value = "";
-       inputValue = 0;
-    } else {
-      errorDisplay.style.display = "none";
-      document.getElementById('submit').disabled = false;
-      numberMorse();
-    }
-  });
+  //   var inputValue = parseInt(numericInput.value, 10);
+  //   if (isNaN(inputValue) || inputValue < 0 || inputValue > 9 || !Number.isInteger(inputValue)|| numericInput.value.includes(".")) {
+  //     errorDisplay.style.display = "block";
+  //     document.getElementById('submit').disabled = true;
+  //     numericInput.value = "";
+  //      inputValue = 0;
+  //   } else {
+  //     errorDisplay.style.display = "none";
+  //     document.getElementById('submit').disabled = false;
+  //     numberMorse();
+  //   }
+  // });
 
-  rangeInput.addEventListener("input", function() {
+  // rangeInput.addEventListener("input", function() {
 
-    numericInput.value = rangeInput.value;
-
-  
-    numberMorse();
-
-    var inputValue = parseInt(numericInput.value, 10);
-    if (isNaN(inputValue) || inputValue < 0 || inputValue > 9 || !Number.isInteger(inputValue)|| numericInput.value.includes(".")) {
-      errorDisplay.style.display = "block";
-      document.getElementById('submit').disabled = true;
-      numericInput.value = "";
-       inputValue = 0;
-    } else {
-      errorDisplay.style.display = "none";
-      document.getElementById('submit').disabled = false;
-      numberMorse();
-    }
-  });
+  //   numericInput.value = rangeInput.value;
 
   
-  numberMorse();
+  //   numberMorse();
+
+  //   var inputValue = parseInt(numericInput.value, 10);
+  //   if (isNaN(inputValue) || inputValue < 0 || inputValue > 9 || !Number.isInteger(inputValue)|| numericInput.value.includes(".")) {
+  //     errorDisplay.style.display = "block";
+  //     document.getElementById('submit').disabled = true;
+  //     numericInput.value = "";
+  //      inputValue = 0;
+  //   } else {
+  //     errorDisplay.style.display = "none";
+  //     document.getElementById('submit').disabled = false;
+  //     numberMorse();
+  //   }
+  // });
+
+  
+  // numberMorse();
 });
 
   
   function numberMorse(){
-    var numericInput = document.getElementById("numberInput");
-    var rangeInput = document.getElementById("slider");
-    
+    const numericInput = document.getElementById("numberInput");
 
+    
+    const value = numericInput.value;
+
+    // Remove any non-digit characters
+    numericInput.value = value.replace(/[^0-9]/g, '');
+
+    const selectedOption = numericInput.value;
+
+    // Limit the length to 1
+    if (numericInput.value.length > 1) {
+      numericInput.value = numericInput.value.slice(0, 1);
+    }
 
     // var inputValue = parseInt(numericInput.value, 10);
     // if (isNaN(inputValue) || inputValue < 0 || inputValue > 9) {
@@ -143,19 +169,21 @@ document.addEventListener("DOMContentLoaded", function() {
         "0": "-----"
       };
 
-    const selectedOption = rangeInput.value;
+   
     const selectedNumber = numToMorse[selectedOption];
 
     console.log(selectedOption);
     console.log(selectedNumber);
 
-    document.getElementById('numberMorse').innerHTML = selectedOption;
-    document.getElementById('dm1').innerHTML = selectedOption;
+
+    document.getElementById('dm1').innerHTML = selectedOption.charAt(0);
 
   }
   function play(){
     console.log("play button clicked")
-    document.getElementById("repeat").style.visibility="hidden";
+    var errorDisplay = document.getElementById("warningMessage");
+    errorDisplay.style.visibility = "hidden";
+    // document.getElementById("repeat").style.visibility="hidden";
 
     const numToMorse = {
         "1": ".----",
@@ -170,8 +198,9 @@ document.addEventListener("DOMContentLoaded", function() {
         "0": "-----"
       };
 
-    var numericInput = document.getElementById("slider");
-	const morsedisplay= document.getElementById("morsedisplay");
+    const numericInput = document.getElementById("numberInput");
+	  const morsedisplay= document.getElementById("morsedisplay");
+    // const numericInput = document.getElementById("numberInput");
     const playbutton = document.getElementById("ply");
     const intervalDuration = 800;
 
@@ -188,6 +217,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		
 	if (currentIndex < selectedNumber.length) {
         playbutton.disabled = true;
+        numericInput.disabled = true;
 
 
 		
@@ -224,12 +254,11 @@ document.addEventListener("DOMContentLoaded", function() {
    
        console.log("hello")
        playbutton.disabled = false;
-       document.getElementById("repeat").style.visibility="visible";
+       numericInput.disabled = false;
 
-	document.getElementById("ply").addEventListener('click',function (){
 		
 
-	});
+	
     clearInterval(interval);
 
 	
@@ -277,7 +306,7 @@ function repeat(){
    var rangeInput = document.getElementById("slider");
 
    numericInput.value = 0;
-   rangeInput.value = 0;
+
    numberMorse();
  
    

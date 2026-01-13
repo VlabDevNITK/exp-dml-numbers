@@ -10,10 +10,10 @@
         "d": "Letters"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
+        "b": "Correct, the right answer is (b). Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
+        "c": "The right answer is (b). Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
+        "d": "The right answer is (b). Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters."
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"
@@ -27,10 +27,10 @@
         "d": "Only through drumming"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
+        "b": "Correct, the right answer is (b). Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
+        "c": "The right answer is (b). Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
+        "d": "The right answer is (b). Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices)."
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"
@@ -44,10 +44,10 @@
         "d": "Ham radio operation"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
-        "d": ""
+        "a": "The right answer is (c). The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
+        "b": "The right answer is (c). The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
+        "c": "Correct, the right answer is (c). The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
+        "d": "The right answer is (c). The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation."
       },
       "correctAnswer": "c",
       "difficulty": "Beginner"
@@ -61,10 +61,10 @@
         "d": "Five times"
       },
       "explanations": {
-        "a": "",
-        "b": " A dash in Morse code is three times longer in duration than a dot, not two or four times.",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). A dash in Morse code is three times longer in duration than a dot, not two or four times.",
+        "b": "Correct, the right answer is (b). A dash in Morse code is three times longer in duration than a dot, not two or four times.",
+        "c": "The right answer is (b). A dash in Morse code is three times longer in duration than a dot, not two or four times.",
+        "d": "The right answer is (b). A dash in Morse code is three times longer in duration than a dot, not two or four times."
       },
       "correctAnswer": "b",
       "difficulty": "Intermediate"
@@ -78,10 +78,10 @@
         "d": "Seven dot"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
-        "d": ""
+        "a": "The right answer is (c). Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
+        "b": "The right answer is (c). Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
+        "c": "Correct, the right answer is (c). Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
+        "d": "The right answer is (c). Letters within a word in Morse code are separated by a space equal to three dots, not one dot."
       },
       "correctAnswer": "c",
       "difficulty": "Intermediate"
@@ -95,10 +95,10 @@
         "d": "Internet service providers"
       },
       "explanations": {
-        "a": "Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a). Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
+        "b": "The right answer is (a). Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
+        "c": "The right answer is (a). Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
+        "d": "The right answer is (a). Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions."
       },
       "correctAnswer": "a",
       "difficulty": "Intermediate"
@@ -112,64 +112,64 @@
         "d": "spaces equal to seven dots"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
+        "a": "The right answer is (d). In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words.",
+        "b": "The right answer is (d). In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words.",
+        "c": "The right answer is (d). In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words.",
+        "d": "Correct, the right answer is (d). In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
       },
       "correctAnswer": "d",
       "difficulty": "Intermediate"
     },
     {
-        "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
-        "answers": {
-          "a": "Sound",
-          "b": "Light",
-          "c": "Telegraph lines",
-          "d": "Printing"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": "Printing is not mentioned as a medium for transmitting Morse code in the provided information."
-        },
-        "correctAnswer": "d",
-        "difficulty": "Advanced"
+      "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
+      "answers": {
+        "a": "Sound",
+        "b": "Light",
+        "c": "Telegraph lines",
+        "d": "Printing"
       },
-      {
-        "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
-        "answers": {
-          "a": "To confuse the recipient",
-          "b": "To save energy",
-          "c": "To separate individual letters",
-          "d": "It has no specific purpose"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
+      "explanations": {
+        "a": "The right answer is (d). Printing is not mentioned as a medium for transmitting Morse code in the provided information.",
+        "b": "The right answer is (d). Printing is not mentioned as a medium for transmitting Morse code in the provided information.",
+        "c": "The right answer is (d). Printing is not mentioned as a medium for transmitting Morse code in the provided information.",
+        "d": "Correct, the right answer is (d). Printing is not mentioned as a medium for transmitting Morse code in the provided information."
       },
-      {
-        "question": "Why is Morse code still relevant today?",
-        "answers": {
-          "a": "It's used for secure military communication.",
-          "b": "It's a fun hobby for enthusiasts.",
-          "c": "It aids communication for individuals with disabilities.",
-          "d": "It's a required skill for all telegraph operators."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
-      }
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
+      "answers": {
+        "a": "To confuse the recipient",
+        "b": "To save energy",
+        "c": "To separate individual letters",
+        "d": "It has no specific purpose"
+      },
+      "explanations": {
+        "a": "The right answer is (c). The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
+        "b": "The right answer is (c). The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
+        "c": "Correct, the right answer is (c). The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
+        "d": "The right answer is (c). The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is Morse code still relevant today?",
+      "answers": {
+        "a": "It's used for secure military communication.",
+        "b": "It's a fun hobby for enthusiasts.",
+        "c": "It aids communication for individuals with disabilities.",
+        "d": "It's a required skill for all telegraph operators."
+      },
+      "explanations": {
+        "a": "The right answer is (c). Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
+        "b": "The right answer is (c). Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
+        "c": "Correct, the right answer is (c). Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
+        "d": "The right answer is (c). Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    }
   ]
 }
