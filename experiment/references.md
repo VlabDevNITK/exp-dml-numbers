@@ -1,5 +1,3 @@
-<!-- Add resources referred for content and simulation development and further reading materials.
-Mention about only the important references -->
 <table style="text-align: justify;">
 <tr style="background-color: transparent;">
   <th>References</th>
