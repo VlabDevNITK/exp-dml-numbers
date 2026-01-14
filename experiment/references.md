@@ -16,7 +16,7 @@
     <ul style="list-style-type: none;">
       <li>Hasan Shifan (Intern) </li>
       <li>Varun | NITK</li>
-      <li>shradha shetty | NITK</li>
+      <li>Shradha shetty | NITK</li>
     </ul></td>
   </tr>
 </table>
